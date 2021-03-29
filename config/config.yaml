@@ -1,0 +1,8 @@
+conf:
+  file: file/countries.csv
+  numberAnswer: 15
+  answerPerQuestion: 3
+  questionsPerGame: 5
+  questionsUrl: /questions
+  answerUrl: /answer
+
