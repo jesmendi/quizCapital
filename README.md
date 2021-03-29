@@ -14,7 +14,7 @@ you can modify  the game chang the file . and modify the question in the client 
 
 but a reminder 
 ```
-numberAnswer: 15
+  numberAnswer: 15
   answerPerQuestion: 3
   questionsPerGame: 5
 
