@@ -1,7 +1,6 @@
 package helper
 
 import (
-	"fmt"
 	"math/rand"
 	"net/http"
 	"time"
@@ -12,7 +11,6 @@ func GetRandomSlice(number int, total int) []int {
 	rand.Seed(time.Now().UnixNano())
 	q := rand.Perm((total))
 	q = q[:number]
-	fmt.Println(q)
 	return q
 
 }
